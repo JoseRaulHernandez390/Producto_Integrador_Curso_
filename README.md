@@ -29,7 +29,7 @@ El proyecto está organizado de la siguiente manera:
   - `scratch_output.json` - Salida generada con los bloques de Scratch que pueden ser utilizados en Scratch.
 
 ## Requisitos y Dependencias
-Para ejecutar este proyecto, necesitas:
+Para ejecutar este proyecto, es necesario el uso de:
 - **Java 11 o superior**.
 - **ANTLR 4.13.2**: Se usa para procesar la gramática y convertir el lenguaje natural a bloques Scratch.
   ```bash
