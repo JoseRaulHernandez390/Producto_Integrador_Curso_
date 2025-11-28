@@ -5,7 +5,7 @@ Este proyecto tiene como objetivo desarrollar un **compilador** que traduzca un 
 
 La finalidad de este compilador es facilitar la creación de proyectos en **Scratch** sin necesidad de interactuar directamente con su interfaz gráfica, promoviendo una programación más accesible y comprensible para principiantes y usuarios sin experiencia previa en programación.
 
-El compilador automatiza la conversión de instrucciones a bloques visuales de Scratch, optimizando el proceso de enseñanza y aprendizaje de programación mediante un enfoque simplificado y visual. Este proyecto permite a los usuarios escribir instrucciones en lenguaje natural y obtener bloques de código que se pueden usar en Scratch para construir proyectos interactivos y educativos.
+El compilador automatiza la conversión de instrucciones a bloques visuales de Scratch, optimizando el proceso de enseñanza y aprendizaje de programación mediante un enfoque simplificado y visual. Este proyecto permite escribir instrucciones en lenguaje natural y obtener bloques de código que se pueden usar en Scratch para construir proyectos interactivos y educativos.
 
 ## Información del Proyecto
 - **Materia**: Programación de Sistemas de Base II
@@ -18,6 +18,7 @@ El compilador automatiza la conversión de instrucciones a bloques visuales de S
 - **Martínez Hernández José Amando** - [2213332179]
 - **Bonilla Salinas Miguel Ángel** - [2213332136]
 - **Salazar González Jeremy** - [2213332207]
+- **Ana Patricia Hernández Lara** - [2213332168]
 
 ## Estructura del Proyecto
 El proyecto está organizado de la siguiente manera:
@@ -31,8 +32,8 @@ El proyecto está organizado de la siguiente manera:
   - `scratch_output.json` - Salida generada con los bloques de Scratch que pueden ser utilizados en Scratch.
 
 ## Requisitos y Dependencias
-Para ejecutar este proyecto, necesitas:
+Para ejecutar este proyecto, se requiere lo siguiente:
 - **Java 11 o superior**.
-- **ANTLR 4.13.2**: Se usa para procesar la gramática y convertir el lenguaje natural a bloques Scratch.
+- **ANTLR 4.13.2**: Usado para procesar la gramática y convertir el lenguaje natural a bloques Scratch.
   ```bash
   java -jar antlr-4.13.2-complete.jar
