@@ -1,0 +1,6 @@
+[
+  { "opcode": "motion_movesteps", "value": "10" },
+  { "opcode": "motion_turnleft", "value": "15" },
+  { "opcode": "control_wait", "value": "2" },
+  { "opcode": "control_stop", "value": "all" }
+]

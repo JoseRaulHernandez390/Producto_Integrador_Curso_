@@ -1,0 +1,4 @@
+avanzar(10);
+girar(izquierda);
+esperar(2);
+detener;
