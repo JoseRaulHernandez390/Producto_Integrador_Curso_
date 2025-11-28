@@ -9,7 +9,7 @@ El traductor está compuesto por varias clases Java que permiten cargar el archi
 - **Materia**: Programación de Sistemas de Base II
 - **Institución**: Universidad Autónoma de Tamaulipas
 - **Semestre**: Noveno semestre, año 2025
-- **Profesor(es)**: Muñoz Quintero Dante
+- **Maestro**: Muñoz Quintero Dante
 
 ## Integrantes del Equipo
 - **José Raúl Hernández Sandoval** - [2213332170]
