@@ -15,7 +15,7 @@ El traductor está compuesto por varias clases Java que permiten cargar el archi
 - **José Raúl Hernández Sandoval** - [2213332170]
 - **Martínez Hernández José Amando** - [2213332179]
 - **Bonilla Salinas Miguel Ángel** - [2213332136]
-- **Salazar González Jeremy** - [22133321]
+- **Salazar González Jeremy** - [2213332207]
 
 ## Estructura del Proyecto
 El proyecto está organizado de la siguiente manera:
