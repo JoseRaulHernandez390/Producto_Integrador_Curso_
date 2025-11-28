@@ -1,9 +1,11 @@
 # Proyecto Traductor Lenguaje Natural a Scratch
 
 ## Descripción del Proyecto
-Este proyecto tiene como objetivo crear un traductor de lenguaje natural a bloques de programación en Scratch. La idea es permitir a cualquier persona escribir instrucciones en un lenguaje más sencillo y en español, como si hablara de forma natural, para que el sistema las traduzca automáticamente a bloques Scratch. Esto se logra utilizando una gramática definida en ANTLR, que genera bloques Scratch en formato JSON compatibles con el editor de Scratch.
+Este proyecto tiene como objetivo desarrollar un **compilador** que traduzca un **lenguaje de programación simplificado** y accesible, escrito en formato de **instrucciones naturales** (como `avanzar(10);`, `girar(izquierda);`, `esperar(2);`, `detener;`), a **bloques de programación visuales** de **Scratch**, representados en **formato JSON**.
 
-El traductor está compuesto por varias clases Java que permiten cargar el archivo de entrada, procesarlo utilizando ANTLR, y generar el código correspondiente en Scratch, que luego puede ser utilizado en un proyecto de Scratch.
+La finalidad de este compilador es facilitar la creación de proyectos en **Scratch** sin necesidad de interactuar directamente con su interfaz gráfica, promoviendo una programación más accesible y comprensible para principiantes y usuarios sin experiencia previa en programación.
+
+El compilador automatiza la conversión de instrucciones a bloques visuales de Scratch, optimizando el proceso de enseñanza y aprendizaje de programación mediante un enfoque simplificado y visual. Este proyecto permite a los usuarios escribir instrucciones en lenguaje natural y obtener bloques de código que se pueden usar en Scratch para construir proyectos interactivos y educativos.
 
 ## Información del Proyecto
 - **Materia**: Programación de Sistemas de Base II
@@ -29,7 +31,7 @@ El proyecto está organizado de la siguiente manera:
   - `scratch_output.json` - Salida generada con los bloques de Scratch que pueden ser utilizados en Scratch.
 
 ## Requisitos y Dependencias
-Para ejecutar este proyecto, es necesario el uso de:
+Para ejecutar este proyecto, necesitas:
 - **Java 11 o superior**.
 - **ANTLR 4.13.2**: Se usa para procesar la gramática y convertir el lenguaje natural a bloques Scratch.
   ```bash
